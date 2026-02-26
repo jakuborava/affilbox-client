@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace JakubOrava\AffilboxClient;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use JakubOrava\AffilboxClient\Commands\AffilboxClientCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class AffilboxClientServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('affilbox-client')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_affilbox_client_table')
+            ->hasCommand(AffilboxClientCommand::class);
     }
 }

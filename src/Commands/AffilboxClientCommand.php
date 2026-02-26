@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace JakubOrava\AffilboxClient\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AffilboxClientCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'affilbox-client';
 
     public $description = 'My command';
 
