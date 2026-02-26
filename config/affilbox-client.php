@@ -1,6 +1,6 @@
 <?php
 
-// config for JakubOrava/AffilboxClient
 return [
-
+    'instance_number' => env('AFFILBOX_INSTANCE_NUMBER'),
+    'api_key' => env('AFFILBOX_API_KEY'),
 ];
