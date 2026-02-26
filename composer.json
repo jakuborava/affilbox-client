@@ -34,8 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JakubOrava\\AffilboxClient\\": "src/",
-            "JakubOrava\\AffilboxClient\\Database\\Factories\\": "database/factories/"
+            "JakubOrava\\AffilboxClient\\": "src/"
         }
     },
     "autoload-dev": {

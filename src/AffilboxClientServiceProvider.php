@@ -17,9 +17,6 @@ class AffilboxClientServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('affilbox-client')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_affilbox_client_table')
-            ->hasCommand(AffilboxClientCommand::class);
+            ->hasConfigFile();
     }
 }
